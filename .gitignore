@@ -1,0 +1,10 @@
+# Compiled python files (e.g. from running the unit tests):
+*.pyc
+*.pyo
+
+# R session files
+.RData
+.Rhistory
+
+# ignore directories
+current/
