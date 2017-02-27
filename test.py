@@ -24,6 +24,8 @@ if not os.environ.get('DISPLAY'):
 from matplotlib.backends.backend_pdf import PdfPages
 
 plt.ioff()
+plt.switch_backend('agg')
+
 
 parser = argparse.ArgumentParser(description='ctCNV, a python tool for CNV anlaysis of ctDNA.',
         epilog="Contact Hao Guo <guo.hao@genecast.com.cn> for help.")
