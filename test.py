@@ -37,6 +37,7 @@ parser.add_argument('--sum', dest='accumulate', action='store_const',
 parser.add_argument('--version', action='version', version='%(prog)s 2.0')
 
 args = parser.parse_args()
-print(args.accumulate(args.integers))
+print args
+#print(args.accumulate(args.integers))
 
 
